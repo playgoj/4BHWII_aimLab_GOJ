@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+ 
   title = 'HTLAimLabAngular';
+
+  ChangeTitel(title:string)
+  {
+    this.title = "HLW aim Lab"
+  }
 }
